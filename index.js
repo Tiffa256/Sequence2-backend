@@ -123,7 +123,7 @@ try {
 // -----------------------------
 // Replace the DB name at the end of the URI if you want a different default database.
 // WARNING: credentials are embedded in this file as requested.
-const MONGODB_URI = 'mongodb+srv://Sequence:Mark075555@opts.ix4lknk.mongodb.net/mydb?retryWrites=true&w=majority';
+const MONGODB_URI = 'mongodb+srv://sequnec2:Mark075555@sequence2.a11ux4w.mongodb.net/mydb?retryWrites=true&w=majority';
 
 if (!MONGODB_URI) {
   console.error('❌ MONGODB_URI is not set. Please update the connection string in this file.');
